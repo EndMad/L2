@@ -6,15 +6,15 @@
 
 if __name__ == '__main__':
     Monitor = float(input("Введите стоимость монитора"))
-    S_blok = float(input("Введите стоимость системного блока"))
+    SistemBlok = float(input("Введите стоимость системного блока"))
     Klava = float(input("Введите стоимость клавиатуры"))
     Mouse = float(input("Введите стоимость мышки"))
     # Cтоимость одного компа
-    Sum = Monitor + S_blok + Klava + Mouse
+    Sum = Monitor + SistemBlok + Klava + Mouse
     # Cтоимость трёх компьютеров
-    Tri_comp = Sum*3
+    TriCompa = Sum*3
     N = float(input("Введите кол-во компьютеров"))
-    N_comp = Sum*N
+    NComp = Sum*N
     print("Cтоимость одного компьютера", Sum)
-    print("Cтоимость трёх компьютеров", Tri_comp)
-    print("Cтоимость N кол-ва компьютеров", N_comp)
+    print("Cтоимость трёх компьютеров", TriComp)
+    print("Cтоимость N кол-ва компьютеров", NComp)
