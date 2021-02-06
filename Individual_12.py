@@ -5,16 +5,16 @@
 # Сколько будут стоить 3 компьютера из этих элементов? N компьютеров?
 
 if __name__ == '__main__':
-    Monitor = float(input("Введите стоимость монитора"))
-    SistemBlok = float(input("Введите стоимость системного блока"))
-    Klava = float(input("Введите стоимость клавиатуры"))
-    Mouse = float(input("Введите стоимость мышки"))
+    monitor = float(input("Введите стоимость монитора"))
+    sistem_blok = float(input("Введите стоимость системного блока"))
+    klava = float(input("Введите стоимость клавиатуры"))
+    mouse = float(input("Введите стоимость мышки"))
     # Cтоимость одного компа
-    Sum = Monitor + SistemBlok + Klava + Mouse
+    sum_comp = monitor + sistem_blok + klava + mouse
     # Cтоимость трёх компьютеров
-    TriCompa = Sum*3
-    N = float(input("Введите кол-во компьютеров"))
-    NComp = Sum*N
-    print("Cтоимость одного компьютера", Sum)
-    print("Cтоимость трёх компьютеров", TriComp)
-    print("Cтоимость N кол-ва компьютеров", NComp)
+    tri_compa = sum_comp*3
+    n = float(input("Введите кол-во компьютеров"))
+    n_comp = sum_comp*n
+    print("Cтоимость одного компьютера", sum_comp)
+    print("Cтоимость трёх компьютеров",  tri_compa)
+    print("Cтоимость N кол-ва компьютеров", n_comp)
